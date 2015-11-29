@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "da24124d81c29caa79daf04abcfc594e",
-    "content-hash": "80f9669080a61940d3ba8eb07a87e69f",
+    "hash": "5004857333f875da8825d8393f0aa98a",
+    "content-hash": "2ff44b5888b9e573c98edfda575f7c74",
     "packages": [
         {
             "name": "composer/installers",
@@ -104,6 +104,52 @@
                 "zikula"
             ],
             "time": "2015-10-29 23:28:48"
+        },
+        {
+            "name": "ekandreas/blade",
+            "version": "0.3.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ekandreas/blade.git",
+                "reference": "6049d8f86c9044ad2f614be3a904ad22727935d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ekandreas/blade/zipball/6049d8f86c9044ad2f614be3a904ad22727935d1",
+                "reference": "6049d8f86c9044ad2f614be3a904ad22727935d1",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": ">1.0.5",
+                "php": ">=5.3.2"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GNUv2"
+            ],
+            "authors": [
+                {
+                    "name": "Mikael Mattsson",
+                    "email": "mikael@weblyan.se",
+                    "homepage": "http://www.wallmanderco.se"
+                },
+                {
+                    "name": "Andreas Ek",
+                    "email": "andreas@andreasek.se",
+                    "homepage": "http://www.aekab.se"
+                }
+            ],
+            "description": "The Blade template engine developed by Taylor Otwell and used in Laravel. Enables the use of Blade in your template files. We use this with Bedrock.",
+            "homepage": "https://github.com/MikaelMattsson/blade",
+            "keywords": [
+                "blade",
+                "laravel",
+                "plugin",
+                "templating",
+                "wordpress"
+            ],
+            "time": "2015-11-29 18:03:47"
         },
         {
             "name": "johnbillion/query-monitor",
