@@ -4,7 +4,7 @@
 
 Simple Social Intranet based on the following components:
 * WordPress
-<del>* Themosis framework for structured development</del>
+* <del>Themosis framework for structured development</del>
 * Bedrock for stable WordPress config foundation
 * Papi for page type models (plugin)
 * ElasticPress with Elasticsearch for excellent search functionality (plugin+service)
