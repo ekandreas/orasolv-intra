@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5004857333f875da8825d8393f0aa98a",
-    "content-hash": "2ff44b5888b9e573c98edfda575f7c74",
+    "hash": "e467dee4259794aa4ffe4740beaec8d5",
+    "content-hash": "11337fba6aaf3985e4291537243de8d3",
     "packages": [
         {
             "name": "composer/installers",
@@ -115,7 +115,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ekandreas/blade/zipball/6049d8f86c9044ad2f614be3a904ad22727935d1",
+                "url": "https://api.github.com/repos/ekandreas/blade/zipball/8206ce4cc980c161b35a34e52dbc6370a5782bb5",
                 "reference": "6049d8f86c9044ad2f614be3a904ad22727935d1",
                 "shasum": ""
             },
@@ -313,6 +313,48 @@
                 "email"
             ],
             "time": "2015-09-22 13:58:03"
+        },
+        {
+            "name": "roots/soil",
+            "version": "3.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/roots/soil.git",
+                "reference": "c9e224facb851011284c3ea925980d988473fb3f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/roots/soil/zipball/c9e224facb851011284c3ea925980d988473fb3f",
+                "reference": "c9e224facb851011284c3ea925980d988473fb3f",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.4.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Scott Walkinshaw",
+                    "email": "scott.walkinshaw@gmail.com",
+                    "homepage": "https://github.com/swalkinshaw"
+                },
+                {
+                    "name": "Ben Word",
+                    "email": "ben@benword.com",
+                    "homepage": "https://github.com/retlehs"
+                }
+            ],
+            "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
+            "homepage": "https://roots.io/plugins/soil/",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2015-11-19 04:59:49"
         },
         {
             "name": "vlucas/phpdotenv",

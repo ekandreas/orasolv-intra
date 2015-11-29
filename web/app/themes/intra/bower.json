@@ -8,7 +8,8 @@
   "private": true,
   "dependencies": {
     "bootstrap-sass": "3.3.6",
-    "Bootflat": "~2.0.4"
+    "Bootflat": "~2.0.4",
+    "morris.js": "morrisjs#~0.5.1"
   },
   "overrides": {
     "bootstrap-sass": {
