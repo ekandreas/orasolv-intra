@@ -45,7 +45,8 @@
     "wpackagist-plugin/redirection": "^2.4",
     "wpackagist-plugin/disable-emojis":"*",
     "ekandreas/blade": "^0.3.7",
-    "roots/soil": "^3.6"
+    "roots/soil": "^3.6",
+    "deployer/deployer": "^3.0"
   },
   "extra": {
     "installer-paths": {
