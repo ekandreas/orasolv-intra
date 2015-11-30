@@ -47,7 +47,8 @@
     "ekandreas/blade": "*",
     "roots/soil": "*",
     "deployer/deployer": "*",
-    "johnbillion/extended-cpts":"*"
+    "johnbillion/extended-cpts":"*",
+    "wpackagist-plugin/resize-image-after-upload":"*"
   },
   "extra": {
     "installer-paths": {
