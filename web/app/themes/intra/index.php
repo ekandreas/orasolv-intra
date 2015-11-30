@@ -5,7 +5,7 @@
 	<div class="row">
 		<div class="col-md-12">
 			<div class="jumbotron">
-			  <div class="jumbotron-photo"><img src="{{ Roots\Sage\Assets\asset_path('images/office.jpg') }}"></div>
+			  <div class="jumbotron-photo"><img src="{{ Roots\Sage\Assets\asset_path('images/orasolv-team.png') }}"></div>
 			  <div class="jumbotron-contents">
 			    <h1>Orasolv Intranät</h1>
 			    <h2>Testar</h2>
