@@ -14,20 +14,23 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">{{ bloginfo('name') }}</a>
+          <a class="navbar-brand" href="/"><img src="{{ Roots\Sage\Assets\asset_path('images/orasolv_303x85_white.png') }}" alt="logo" /></a>
         </div>  
 
         <div id="bs-example-navbar-collapse-5" class="collapse navbar-collapse">
 
           <?php
-              wp_nav_menu( array(
-                  'menu'              => 'header-nav',
-                  'theme_location'    => 'header-nav',
-                  'depth'             => 2,
-                  'container'         => null,
-                  'menu_class'        => 'nav navbar-nav',
-                  'walker'            => new Roots\Soil\Nav\NavWalker())
-              );
+              if( has_nav_menu('primary_navigation') ) {
+                wp_nav_menu( [
+                    'menu'              => 'primary_navigation',
+                    'theme_location'    => 'primary_navigation',
+                    'depth'             => 1,
+                    'container'         => '',
+                    'menu_class'        => 'nav navbar-nav',
+                    'fallback_cb' => 'wp_page_menu',
+                    'walker'            => new Roots\Soil\Nav\NavWalker()
+                ]);
+              }
           ?>
 
           <form class="navbar-form navbar-right" role="search">

@@ -17,7 +17,7 @@ task( 'pull:fetch_dump', function () {
 task( 'pull:resolve_dump', function () {
 
     writeln( 'Restore database inside vagrant (approx. 60s)' );
-    runLocally( 'vagrant ssh -c "mysql -u root -proot orasolvinfo < /var/www/intra/orasolvinfo.sql"', 999 );
+    runLocally( 'vagrant ssh -c "mysql -u root -proot intra < /var/www/intra/orasolvinfo.sql"', 999 );
 
 } );
 

@@ -226,7 +226,7 @@ gulp.task('images', function() {
 
 gulp.task('clearblade', function() {
   del(['./.cache']);
-  mkdirp('./.cache');
+  mkdirp('.cache');
 });
 
 // ### JSHint

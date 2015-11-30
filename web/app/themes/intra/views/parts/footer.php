@@ -1,37 +1,36 @@
-
 <div class="footer">
   <div class="container">
     <div class="clearfix">
       <div class="footer-logo"><a href="/">{{ bloginfo('name') }}</a></div>
       <dl class="footer-nav">
-        <dt class="nav-title">PORTFOLIO</dt>
-        <dd class="nav-item"><a href="#">Web Design</a></dd>
-        <dd class="nav-item"><a href="#">Branding &amp; Identity</a></dd>
-        <dd class="nav-item"><a href="#">Mobile Design</a></dd>
-        <dd class="nav-item"><a href="#">Print</a></dd>
-        <dd class="nav-item"><a href="#">User Interface</a></dd>
+        <dt class="nav-title">Länkgrupp 1</dt>
+        <dd class="nav-item"><a href="/">Donec</a></dd>
+        <dd class="nav-item"><a href="/">Ullamcorper</a></dd>
+        <dd class="nav-item"><a href="/">Nulla non</a></dd>
+        <dd class="nav-item"><a href="/">Auctor</a></dd>
+        <dd class="nav-item"><a href="/">Fringilla</a></dd>
       </dl>
       <dl class="footer-nav">
-        <dt class="nav-title">ABOUT</dt>
-        <dd class="nav-item"><a href="#">The Company</a></dd>
-        <dd class="nav-item"><a href="#">History</a></dd>
-        <dd class="nav-item"><a href="#">Vision</a></dd>
+        <dt class="nav-title">Länkgrupp 2</dt>
+        <dd class="nav-item"><a href="/">Praesent</a></dd>
+        <dd class="nav-item"><a href="/">Commodo</a></dd>
+        <dd class="nav-item"><a href="/">Cursus</a></dd>
       </dl>
       <dl class="footer-nav">
-        <dt class="nav-title">GALLERY</dt>
-        <dd class="nav-item"><a href="#">Flickr</a></dd>
-        <dd class="nav-item"><a href="#">Picasa</a></dd>
-        <dd class="nav-item"><a href="#">iStockPhoto</a></dd>
-        <dd class="nav-item"><a href="#">PhotoDune</a></dd>
+        <dt class="nav-title">Länkgrupp 3</dt>
+        <dd class="nav-item"><a href="/">Magna</a></dd>
+        <dd class="nav-item"><a href="/">Vel scelerisque</a></dd>
+        <dd class="nav-item"><a href="/">Scelerisque</a></dd>
+        <dd class="nav-item"><a href="/">Consectetur</a></dd>
       </dl>
       <dl class="footer-nav">
-        <dt class="nav-title">CONTACT</dt>
-        <dd class="nav-item"><a href="#">Basic Info</a></dd>
-        <dd class="nav-item"><a href="#">Map</a></dd>
-        <dd class="nav-item"><a href="#">Conctact Form</a></dd>
+        <dt class="nav-title">Länkgrupp 4</dt>
+        <dd class="nav-item"><a href="/">Aenean eu</a></dd>
+        <dd class="nav-item"><a href="/">Leo</a></dd>
+        <dd class="nav-item"><a href="/">Pellentesque</a></dd>
       </dl>
     </div>
-    <div class="footer-copyright text-center">Copyright © 2014 Flathemes.All rights reserved.</div>
+    <div class="footer-copyright text-center">Orasolc info intranät</div>
   </div>
 </div>
 
