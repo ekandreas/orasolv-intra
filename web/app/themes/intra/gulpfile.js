@@ -19,8 +19,7 @@ var runSequence  = require('run-sequence');
 var sass         = require('gulp-sass');
 var sourcemaps   = require('gulp-sourcemaps');
 var uglify       = require('gulp-uglify');
-var del          = require('del');
-var mkdirp = require('mkdirp');
+var del = require('del');
 
 // See https://github.com/austinpray/asset-builder
 var manifest = require('asset-builder')('./assets/manifest.json');
@@ -225,8 +224,7 @@ gulp.task('images', function() {
 });
 
 gulp.task('clearblade', function() {
-  del(['./.cache']);
-  mkdirp('.cache');
+  del(['.cache/*']);
 });
 
 // ### JSHint
