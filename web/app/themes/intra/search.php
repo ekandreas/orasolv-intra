@@ -1,14 +1,30 @@
-<?php get_template_part('templates/page', 'header'); ?>
+@layout('views.layouts.master')
 
-<?php if (!have_posts()) : ?>
-  <div class="alert alert-warning">
-    <?php _e('Sorry, no results were found.', 'sage'); ?>
-  </div>
-  <?php get_search_form(); ?>
-<?php endif; ?>
+@section('main')
 
-<?php while (have_posts()) : the_post(); ?>
-  <?php get_template_part('templates/content', 'search'); ?>
-<?php endwhile; ?>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="jumbotron">
+				  <div class="jumbotron-contents">
+				  	<h1>{{ __('Sökresultat för ', 'orasolv') }} '<?=get_query_var('s')?>'</h1>
 
-<?php the_posts_navigation(); ?>
+<ul>
+	@while( have_posts() )
+		<?php the_post() ?>
+	    <li><a href="{{the_permalink()}}">{{the_title()}}</a></li>
+	@endwhile
+</ul>
+
+				  </div>
+				</div>
+			</div>
+		</div>
+        
+@endsection
+
+@section('sidebar')
+	@include( 'views.layouts.sidebar' )
+@endsection
+
+
+

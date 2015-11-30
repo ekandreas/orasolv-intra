@@ -15,8 +15,11 @@ $sage_includes = [
   'lib/setup.php',     // Theme setup
   'lib/titles.php',    // Page titles
   'lib/wrapper.php',   // Theme wrapper class
-  'lib/customizer.php' // Theme customizer
+  'lib/customizer.php', // Theme customizer
+  'lib/papi.php',
+  'lib/cpt.php',
 ];
+
 
 if(function_exists('blade_set_storage_path')){
     blade_set_storage_path( dirname( __FILE__ ) . '/.cache' );

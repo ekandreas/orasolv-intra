@@ -34,19 +34,20 @@
   ],
   "require": {
     "php": ">=5.5",
-    "composer/installers": "~1.0.12",
-    "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.3.1",
-    "wp-papi/papi": "^2.4",
-    "johnbillion/query-monitor": "^2.8",
-    "wpackagist-plugin/elasticpress": "^1.6",
-    "wpackagist-plugin/groups": "^1.9",
-    "mandrill/mandrill": "^1.0",
-    "wpackagist-plugin/redirection": "^2.4",
+    "composer/installers": "*",
+    "vlucas/phpdotenv": "*",
+    "johnpbloch/wordpress": "*",
+    "wp-papi/papi": "*",
+    "johnbillion/query-monitor": "*",
+    "wpackagist-plugin/elasticpress": "*",
+    "wpackagist-plugin/members": "*",
+    "mandrill/mandrill": "*",
+    "wpackagist-plugin/redirection": "*",
     "wpackagist-plugin/disable-emojis":"*",
-    "ekandreas/blade": "^0.3.7",
-    "roots/soil": "^3.6",
-    "deployer/deployer": "^3.0"
+    "ekandreas/blade": "*",
+    "roots/soil": "*",
+    "deployer/deployer": "*",
+    "johnbillion/extended-cpts":"*"
   },
   "extra": {
     "installer-paths": {
