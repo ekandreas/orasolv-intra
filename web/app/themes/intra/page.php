@@ -13,6 +13,9 @@
 						</div>
 					@endif
 				  <div class="jumbotron-contents">
+				  	@if( !is_front_page() )
+				  		<h1>{{ the_title() }}</h1>
+				  	@endif
 				  	{{ the_content() }}
 				  </div>
 				</div>
