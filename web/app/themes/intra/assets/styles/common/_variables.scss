@@ -1,8 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,300);
-$font-family-base: 'Raleway', sans-serif;
+$font-family-base: 'Frutiger LT Std 47 Light Condensed', sans-serif;
 
-$navbar-background-color: #a33f34;
-$navbar-background-color-active: #bd2716;
+$navbar-background-color: #333333;
+$navbar-background-color-active: #cc3333;
+
+$footer-background-color: #333333;
 
 // Glyphicons font path
 $icon-font-path:        "../fonts/";
@@ -12,4 +13,4 @@ $main-sm-columns:       12;
 $sidebar-sm-columns:    4;
 
 // Colors
-$brand-primary:         #bd2716;
+$brand-primary:         #cc3333;

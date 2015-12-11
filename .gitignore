@@ -30,3 +30,4 @@ node_modules
 bin
 .vagrant
 web/app/themes/intra/.cache
+web/app/themes/old

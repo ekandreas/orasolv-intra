@@ -1,8 +1,10 @@
 (function($) {
-  // Site title
-  wp.customize('blogname', function(value) {
+
+  /*wp.customize('header_nav_color', function(value) {
     value.bind(function(to) {
-      $('.brand').text(to);
+      $('.header').css('color', to);
     });
   });
+   */
+
 })(jQuery);
