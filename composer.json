@@ -37,7 +37,7 @@
     "composer/installers": "*",
     "vlucas/phpdotenv": "*",
     "johnpbloch/wordpress": "*",
-    "wp-papi/papi": "*",
+    "wp-papi/papi": "master-dev",
     "johnbillion/query-monitor": "*",
     "wpackagist-plugin/elasticpress": "*",
     "wpackagist-plugin/members": "*",

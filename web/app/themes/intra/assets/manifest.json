@@ -22,6 +22,6 @@
     }
   },
   "config": {
-    "devUrl": "http://lobbykit.dev"
+    "devUrl": "http://intra.dev"
   }
 }

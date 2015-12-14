@@ -6,6 +6,8 @@ $sage_includes = [
   'lib/setup.php',     // Theme setup
   'lib/titles.php',    // Page titles
   'lib/admin_menu.php',
+  'lib/cpt.php',
+  'lib/papi.php',
 ];
 
 if(function_exists('blade_set_storage_path')){
