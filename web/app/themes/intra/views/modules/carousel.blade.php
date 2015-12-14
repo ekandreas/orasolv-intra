@@ -1,5 +1,3 @@
-TEST: @papi('test')
-
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
   <!-- Indicators -->
