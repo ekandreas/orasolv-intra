@@ -21,7 +21,7 @@ set('repository', 'https://github.com/ekandreas/orasolv-intra');
 // Symlink the .env file for Bedrock
 set('env', 'prod');
 set('keep_releases', 10);
-set('shared_dirs', ['web/app/uploads','web/app/themes/intra/.cache']);
+set('shared_dirs', ['web/app/uploads']);
 set('shared_files', ['.env', 'web/.htaccess', 'web/robots.txt']);
 set('env_vars', '/usr/bin/env');
 
