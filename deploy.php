@@ -9,7 +9,7 @@ server( 'development', 'intra.dev', 22 )
     ->stage('development')
     ->user( 'vagrant', 'vagrant' );
 
-server( 'production', '139.162.141.89', 22 )
+server( 'production', 'c6889.cloudnet.se', 22 )
     ->env('deploy_path','/mnt/persist/www/orasolv.info')
     ->user( 'root' )
     ->env('branch', 'master')
