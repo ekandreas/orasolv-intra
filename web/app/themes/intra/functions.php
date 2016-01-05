@@ -8,6 +8,7 @@ $sage_includes = [
   'lib/admin_menu.php',
   'lib/cpt.php',
   'lib/papi.php',
+  //'lib/no-updates.php',
 ];
 
 if(function_exists('blade_set_storage_path')){

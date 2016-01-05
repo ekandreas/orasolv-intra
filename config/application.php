@@ -48,6 +48,11 @@ define('DB_COLLATE', '');
 $table_prefix = getenv('DB_PREFIX') ?: 'wp_';
 
 /**
+ * Elasticsearch for Elasticpress
+ */
+define('EP_HOST', getenv('EP_HOST'));
+
+/**
  * Authentication Unique Keys and Salts
  */
 define('AUTH_KEY', getenv('AUTH_KEY'));
@@ -65,6 +70,8 @@ define('NONCE_SALT', getenv('NONCE_SALT'));
 define('AUTOMATIC_UPDATER_DISABLED', true);
 define('DISABLE_WP_CRON', getenv('DISABLE_WP_CRON') ?: false);
 define('DISALLOW_FILE_EDIT', true);
+define( 'WP_AUTO_UPDATE_CORE', false );
+
 
 /**
  * Bootstrap WordPress

@@ -1,6 +1,5 @@
 # Application
 web/app/plugins/*
-!web/app/plugins/wp-blade
 !web/app/plugins/.gitkeep
 web/app/mu-plugins/*/
 web/app/upgrade
@@ -32,3 +31,4 @@ bin
 .vagrant
 web/app/themes/intra/.cache
 web/app/themes/old
+access.log

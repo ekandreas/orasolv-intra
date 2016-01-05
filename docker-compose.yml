@@ -1,0 +1,19 @@
+web:
+    build: .
+    ports:
+        - "80:80"
+    volumes:
+        - ".:/var/www/html"
+    links:
+        - mysqldb:mysqldb
+mysqldb:
+    image: mysql
+    environment:
+        - MYSQL_ROOT_PASSWORD=root
+        - MYSQL_DATABASE=intra
+    ports:
+        - "3306:3306"
+elastic:
+    image: elasticsearch
+    ports:
+        - "9200:9200"
