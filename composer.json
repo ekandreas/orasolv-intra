@@ -48,7 +48,9 @@
     "deployer/deployer": "*",
     "johnbillion/extended-cpts":"*",
     "wpackagist-plugin/resize-image-after-upload":"*",
-    "ekandreas/bladerunner":"*"
+    "ekandreas/bladerunner":"*",
+    "ekandreas/dipwpe": "dev-master",
+    "filp/whoops": "dev-master"
   },
   "extra": {
     "installer-paths": {

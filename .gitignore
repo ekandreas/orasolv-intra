@@ -32,3 +32,4 @@ bin
 web/app/themes/intra/.cache
 web/app/themes/old
 access.log
+db.php
