@@ -22,6 +22,15 @@ class Bars_Module_Type extends Papi_Page_Type
 
         $this->box( dirname(__FILE__) . '/parts/diagram-yabcd.php' );
 
+        $this->box( __('Text','lobbykit'), [
+                papi_property([
+                    'slug'  => 'description',
+                    'title' => __('Beskrivning','lobbykit'),
+                    'type'  => 'editor',
+                ]),
+            ]
+        );
+
     }
 
 }

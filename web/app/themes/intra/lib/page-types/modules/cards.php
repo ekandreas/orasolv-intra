@@ -20,16 +20,20 @@ class Cards_Module_Type extends Papi_Page_Type
             'commentstatusdiv',
         ]);
 
+        $this->box( __('Text','lobbykit'), [
+                papi_property([
+                    'slug'  => 'text',
+                    'title' => __('Innehåll','lobbykit'),
+                    'type'  => 'editor',
+                ]),
+            ]
+        );
+
         $this->box( __('Kortknapp','lobbykit'), [
                 papi_property([
-                    'slug'  => 'link_title',
-                    'title' => __('Länknamn','lobbykit'),
-                    'type'  => 'string',
-                ]),
-                papi_property([
-                    'slug'  => 'link_url',
-                    'title' => __('Länkadress','lobbykit'),
-                    'type'  => 'string',
+                    'slug'  => 'link',
+                    'title' => __('Länk','lobbykit'),
+                    'type'  => 'link',
                 ]),
             ]
         );

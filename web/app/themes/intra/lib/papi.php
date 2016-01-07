@@ -31,7 +31,9 @@ class Papi
             if( !strpos('blade.php',$template)) {
                 $template = str_replace('.php', '.blade.php', $template);
             }
-            if( get_post_type()=='module') $template='module.blade.php';
+            if( get_post_type()=='module') {
+                $template='module.blade.php';
+            }
             return [
                 'page' => $template,
                 'single' => $template,

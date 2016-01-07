@@ -16,4 +16,6 @@
 		@endwhile
 	@endif
 
+	@include( 'views.parts.modules', [ 'slug' => 'modules_container_row1_col1' ] )
+
 @endsection

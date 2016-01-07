@@ -1,8 +1,3 @@
-<?php
-	global $post;
-	$post = get_post( $module->ID );
-	setup_postdata( $post );
-?>
 <div class="row">
 
 	<div class="col-md-12">
@@ -19,7 +14,3 @@
 	</div>
 
 </div>
-
-<?php
-
-wp_reset_postdata( $post );
