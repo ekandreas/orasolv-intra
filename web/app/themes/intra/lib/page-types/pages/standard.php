@@ -17,7 +17,6 @@ class Standard_Page_Type extends Papi_Page_Type
     public function remove( $post_type_supports = [] ) {
         return [
             'commentstatusdiv',
-            'editor',
             ];
     }
 
@@ -25,10 +24,9 @@ class Standard_Page_Type extends Papi_Page_Type
 
         $this->remove([
             'commentstatusdiv',
-            'editor',
             ]);
 
-        $this->box( 'Rad 1', [
+        $this->box( 'Under innehåll', [
             papi_property( [
                 'slug' => 'modules_container_row1_col1',
                 'title' => __('Kolumn 1','intra'),
@@ -38,10 +36,23 @@ class Standard_Page_Type extends Papi_Page_Type
                     'post_type' => 'module',
                 ],
             ] ),
+        ] );
+
+        $this->box( 'Sidebar', [
             papi_property( [
-                'slug' => 'modules_container_row1_col2',
-                'title' => __('Kolumn 2','intra'),
+                'slug' => 'sidebar_modules_inherit',
+                'title' => __('Ärv sidebar från','intra'),
                 'description' => 'Hämtar modul och visar dess funktion',
+                'type'  => 'post',
+                'settings' => [
+                    'placeholder' => 'Egen sidebar, ärv inte...',
+                    'post_type' => 'page',
+                ],
+            ] ),
+            papi_property( [
+                'slug' => 'sidebar_modules',
+                'title' => __('Sidebar','intra'),
+                'description' => 'Hämtar moduler och visar dess funktion',
                 'type'  => 'relationship',
                 'settings' => [
                     'post_type' => 'module',

@@ -11,12 +11,28 @@ class Papi
             return $directories;
         } );
 
+        add_action('template_redirect', '\intra\Papi::add_template_types', 9);
+
     }
 
     static function is_papi_page() {
         return !!\papi_get_page_type_id();
     }
 
+    static function add_template_types() {
+        add_filter('bladerunner/template_types', '\intra\Papi::template_types');
+    }
+
+    static function template_types() {
+        
+        $template = papi_get_page_type_template(get_the_ID());
+        if( $template ) {
+            $template = str_replace('.php', '.blade.php', $template);
+            return [
+                'page' => $template,
+            ];
+        }
+    }
 
     static function template() {
 
@@ -28,12 +44,12 @@ class Papi
         if( strpos( $class, '_page_' ) ) {
             $class = str_replace('_page_type', '', $class);
             $class = str_replace('_', '-', $class);
-            $result = 'views.pages.' . $class;
+            $result = 'views/pages/' . $class;
         }
         else if( strpos( $class, '_module_' ) ) {
             $class = str_replace('_module_type', '', $class);
             $class = str_replace('_', '-', $class);
-            $result = 'views.modules.' . $class;
+            $result = 'views/modules/' . $class;
         }
         else {
 

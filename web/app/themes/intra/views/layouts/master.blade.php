@@ -15,7 +15,7 @@
 			        @yield('main')
 			    </div>
 				<div class="col-md-4">
-			        @yield('sidebar')
+			        @include('views.layouts.sidebar')
 			    </div>
 	        </div>
         </div>

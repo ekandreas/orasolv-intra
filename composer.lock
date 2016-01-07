@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "43388763b5d32c6122360583c42ede8d",
-    "content-hash": "06ce7c789aa87aac9b95cb554a8c68d0",
+    "hash": "0d88a90184def3a3506ce86ffe9ffe6c",
+    "content-hash": "def86e19ea74686ac91c35e432d0fbdf",
     "packages": [
         {
             "name": "composer/installers",
@@ -228,16 +228,16 @@
         },
         {
             "name": "ekandreas/bladerunner",
-            "version": "0.8.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ekandreas/bladerunner.git",
-                "reference": "a8ced9cca96e8c6322905c35c38dcb8c1bdbac90"
+                "reference": "4590e430f109f86dd277fe92d9c8a9b45ca3df0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ekandreas/bladerunner/zipball/a8ced9cca96e8c6322905c35c38dcb8c1bdbac90",
-                "reference": "a8ced9cca96e8c6322905c35c38dcb8c1bdbac90",
+                "url": "https://api.github.com/repos/ekandreas/bladerunner/zipball/4590e430f109f86dd277fe92d9c8a9b45ca3df0b",
+                "reference": "4590e430f109f86dd277fe92d9c8a9b45ca3df0b",
                 "shasum": ""
             },
             "require": {
@@ -262,7 +262,7 @@
                 "laravel",
                 "wordpress"
             ],
-            "time": "2016-01-06 17:31:41"
+            "time": "2016-01-07 10:47:23"
         },
         {
             "name": "ekandreas/dipwpe",
@@ -1026,16 +1026,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.4",
+            "version": "4.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "ad70e5cf518b697eed94f558ca6c88e5cc87e65b"
+                "reference": "85d6a8c16c7e8bb369e7530d3676d16618f68e24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/ad70e5cf518b697eed94f558ca6c88e5cc87e65b",
-                "reference": "ad70e5cf518b697eed94f558ca6c88e5cc87e65b",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/85d6a8c16c7e8bb369e7530d3676d16618f68e24",
+                "reference": "85d6a8c16c7e8bb369e7530d3676d16618f68e24",
                 "shasum": ""
             },
             "require": {
@@ -1059,7 +1059,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2015-12-08 23:46:14"
+            "time": "2016-01-06 18:46:15"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -2445,12 +2445,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-papi/papi.git",
-                "reference": "6679d557c100376efea49c64896a2c6804e274ef"
+                "reference": "3d56f990c3640c2b886858fb4c187dad9c3ed359"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-papi/papi/zipball/6679d557c100376efea49c64896a2c6804e274ef",
-                "reference": "6679d557c100376efea49c64896a2c6804e274ef",
+                "url": "https://api.github.com/repos/wp-papi/papi/zipball/3d56f990c3640c2b886858fb4c187dad9c3ed359",
+                "reference": "3d56f990c3640c2b886858fb4c187dad9c3ed359",
                 "shasum": ""
             },
             "require": {
@@ -2487,7 +2487,7 @@
                 "page type",
                 "wordpress"
             ],
-            "time": "2016-01-05 11:38:22"
+            "time": "2016-01-06 21:50:56"
         },
         {
             "name": "wpackagist-plugin/disable-emojis",
@@ -2595,6 +2595,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "wp-papi/papi": 20,
+        "ekandreas/bladerunner": 20,
         "ekandreas/dipwpe": 20,
         "filp/whoops": 20
     },

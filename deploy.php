@@ -10,6 +10,7 @@ env('remote.ssh','root@c6889.cloudnet.se');
 env('remote.database','orasolvinfo');
 env('remote.domain','orasolv.info');
 env('local.domain','intra.dev');
+env('local.is_elastic',true);
 
 server( 'development', 'intra.dev', 22 )
     ->env('deploy_path','/var/www/intra')

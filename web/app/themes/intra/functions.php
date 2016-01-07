@@ -11,10 +11,6 @@ $sage_includes = [
   //'lib/no-updates.php',
 ];
 
-if(function_exists('blade_set_storage_path')){
-    blade_set_storage_path( dirname( __FILE__ ) . '/.cache' );
-}
-
 foreach ($sage_includes as $file) {
   if (!$filepath = locate_template($file)) {
     trigger_error(sprintf(__('Error locating %s for inclusion', 'sage'), $file), E_USER_ERROR);
