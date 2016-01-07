@@ -1,6 +1,6 @@
 <?php
 
-class Bars_Module_Page_Type extends Papi_Page_Type
+class Bars_Module_Type extends Papi_Page_Type
 {
 
     public function meta()
@@ -9,7 +9,8 @@ class Bars_Module_Page_Type extends Papi_Page_Type
             'post_type'   => 'module',
             'name'        => __('Staplar för utvisning','lobbykit'),
             'description' => __('Ett stapeldiagram visas ut med dina siffror','lobbykit'),
-            'template' => 'views.modules.bars',
+            'template' => intra\Papi::template(),
+            'thumbnail' => intra\Papi::thumbnail(),
         ];
     }
 

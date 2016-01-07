@@ -1,6 +1,6 @@
 <?php
 
-class Lines_Module_Page_Type extends Papi_Page_Type
+class Lines_Module_Type extends Papi_Page_Type
 {
 
     public function meta()
@@ -9,7 +9,8 @@ class Lines_Module_Page_Type extends Papi_Page_Type
             'post_type'   => 'module',
             'name'        => __('Linjediagram för utvisning','lobbykit'),
             'description' => __('Ett linjediagram visas ut med dina siffror','lobbykit'),
-            'template' => 'views.modules.lines',
+            'template' => intra\Papi::template(),
+            'thumbnail' => intra\Papi::thumbnail(),
         ];
     }
 

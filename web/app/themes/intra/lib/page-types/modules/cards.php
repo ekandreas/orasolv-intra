@@ -1,6 +1,6 @@
 <?php
 
-class Cards_Module_Page_Type extends Papi_Page_Type
+class Cards_Module_Type extends Papi_Page_Type
 {
 
     public function meta()
@@ -9,7 +9,8 @@ class Cards_Module_Page_Type extends Papi_Page_Type
             'post_type'   => 'module',
             'name'        => __('Kort','lobbykit'),
             'description' => __('Ett enkelt kort med länkknapp','lobbykit'),
-            'template' => 'views.modules.cards',
+            'template' => intra\Papi::template(),
+            'thumbnail' => intra\Papi::thumbnail(),
         ];
     }
 

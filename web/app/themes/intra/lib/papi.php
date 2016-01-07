@@ -27,9 +27,15 @@ class Papi
         
         $template = papi_get_page_type_template(get_the_ID());
         if( $template ) {
-            $template = str_replace('.php', '.blade.php', $template);
+            $template = str_replace('/blade.php', '.blade.php', $template);
+            if( !strpos('blade.php',$template)) {
+                $template = str_replace('.php', '.blade.php', $template);
+            }
+            if( get_post_type()=='module') $template='module.blade.php';
             return [
                 'page' => $template,
+                'single' => $template,
+                'module-page' => $template,
             ];
         }
     }
