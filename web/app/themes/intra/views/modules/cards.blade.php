@@ -9,7 +9,7 @@
 	<div class="panel-body">
 		@if( has_post_thumbnail( $module->ID ) )
 			<div class="thumbnail">
-			    {!! get_the_post_thumbnail( $module->ID, ['class'=>'img-rounded','size'=>'full']) !!}
+			    <?=get_the_post_thumbnail( $module->id, ['class'=>'img-rounded','size'=>'full']) ?>
 			</div>
 		@endif
 		<p>{!! papi_get_field( $module->ID, 'text' ) !!}</p>
