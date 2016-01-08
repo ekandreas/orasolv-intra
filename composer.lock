@@ -232,12 +232,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ekandreas/bladerunner.git",
-                "reference": "4590e430f109f86dd277fe92d9c8a9b45ca3df0b"
+                "reference": "cbff07496befc36ad2c0f06ef3c19d604870efe9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ekandreas/bladerunner/zipball/4590e430f109f86dd277fe92d9c8a9b45ca3df0b",
-                "reference": "4590e430f109f86dd277fe92d9c8a9b45ca3df0b",
+                "url": "https://api.github.com/repos/ekandreas/bladerunner/zipball/cbff07496befc36ad2c0f06ef3c19d604870efe9",
+                "reference": "cbff07496befc36ad2c0f06ef3c19d604870efe9",
                 "shasum": ""
             },
             "require": {
@@ -262,7 +262,7 @@
                 "laravel",
                 "wordpress"
             ],
-            "time": "2016-01-07 10:47:23"
+            "time": "2016-01-08 14:52:59"
         },
         {
             "name": "ekandreas/dipwpe",
@@ -270,12 +270,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ekandreas/dipwpe.git",
-                "reference": "0e712f195d093925f01735202263b009425c675c"
+                "reference": "02ea5ef111adc65d2d8b4784f35467595c359506"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ekandreas/dipwpe/zipball/0e712f195d093925f01735202263b009425c675c",
-                "reference": "0e712f195d093925f01735202263b009425c675c",
+                "url": "https://api.github.com/repos/ekandreas/dipwpe/zipball/02ea5ef111adc65d2d8b4784f35467595c359506",
+                "reference": "02ea5ef111adc65d2d8b4784f35467595c359506",
                 "shasum": ""
             },
             "type": "library",
@@ -284,7 +284,7 @@
                 "MIT"
             ],
             "description": "Deployment recipe",
-            "time": "2016-01-06 18:22:53"
+            "time": "2016-01-07 14:48:29"
         },
         {
             "name": "elfet/pure",
@@ -666,16 +666,16 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v5.2.6",
+            "version": "v5.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
-                "reference": "778616cde8f6bdf2c6fb96ec7d2aacbf88745486"
+                "reference": "afd2e874e034707c6bb9436f5a897ce29dce501a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/container/zipball/778616cde8f6bdf2c6fb96ec7d2aacbf88745486",
-                "reference": "778616cde8f6bdf2c6fb96ec7d2aacbf88745486",
+                "url": "https://api.github.com/repos/illuminate/container/zipball/afd2e874e034707c6bb9436f5a897ce29dce501a",
+                "reference": "afd2e874e034707c6bb9436f5a897ce29dce501a",
                 "shasum": ""
             },
             "require": {
@@ -705,11 +705,11 @@
             ],
             "description": "The Illuminate Container package.",
             "homepage": "http://laravel.com",
-            "time": "2015-12-23 01:00:15"
+            "time": "2016-01-06 14:42:17"
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.2.6",
+            "version": "v5.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -751,16 +751,16 @@
         },
         {
             "name": "illuminate/events",
-            "version": "v5.2.6",
+            "version": "v5.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
-                "reference": "189f1915846101ecb93a9b2fc2dadb1e8c7d1b42"
+                "reference": "aeebcd54a61ce3bddddcb0273b532256201cd9d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/events/zipball/189f1915846101ecb93a9b2fc2dadb1e8c7d1b42",
-                "reference": "189f1915846101ecb93a9b2fc2dadb1e8c7d1b42",
+                "url": "https://api.github.com/repos/illuminate/events/zipball/aeebcd54a61ce3bddddcb0273b532256201cd9d1",
+                "reference": "aeebcd54a61ce3bddddcb0273b532256201cd9d1",
                 "shasum": ""
             },
             "require": {
@@ -792,20 +792,20 @@
             ],
             "description": "The Illuminate Events package.",
             "homepage": "http://laravel.com",
-            "time": "2015-11-30 19:26:21"
+            "time": "2016-01-01 01:00:19"
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v5.2.6",
+            "version": "v5.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
-                "reference": "693789f11c22b96180dce3a20e6b7c4842299400"
+                "reference": "b32bdddac9a90e5b36de049f4c3bf75c690df9ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/693789f11c22b96180dce3a20e6b7c4842299400",
-                "reference": "693789f11c22b96180dce3a20e6b7c4842299400",
+                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/b32bdddac9a90e5b36de049f4c3bf75c690df9ad",
+                "reference": "b32bdddac9a90e5b36de049f4c3bf75c690df9ad",
                 "shasum": ""
             },
             "require": {
@@ -842,20 +842,20 @@
             ],
             "description": "The Illuminate Filesystem package.",
             "homepage": "http://laravel.com",
-            "time": "2015-12-20 15:49:15"
+            "time": "2016-01-02 15:21:57"
         },
         {
             "name": "illuminate/support",
-            "version": "v5.2.6",
+            "version": "v5.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "7be481e742f527a5c4bc84e967bd06a31f50ec0e"
+                "reference": "6d8dec02825299b0ad47712564e9d33104e148c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/7be481e742f527a5c4bc84e967bd06a31f50ec0e",
-                "reference": "7be481e742f527a5c4bc84e967bd06a31f50ec0e",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/6d8dec02825299b0ad47712564e9d33104e148c4",
+                "reference": "6d8dec02825299b0ad47712564e9d33104e148c4",
                 "shasum": ""
             },
             "require": {
@@ -898,20 +898,20 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "http://laravel.com",
-            "time": "2015-12-29 14:47:47"
+            "time": "2016-01-07 11:02:28"
         },
         {
             "name": "illuminate/view",
-            "version": "v5.2.6",
+            "version": "v5.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
-                "reference": "a52d527ecbf26fe6ed8c441f6167ed75f6b39d95"
+                "reference": "5c7c73022afc942c0f012cc3a8868619c47c94e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/view/zipball/a52d527ecbf26fe6ed8c441f6167ed75f6b39d95",
-                "reference": "a52d527ecbf26fe6ed8c441f6167ed75f6b39d95",
+                "url": "https://api.github.com/repos/illuminate/view/zipball/5c7c73022afc942c0f012cc3a8868619c47c94e1",
+                "reference": "5c7c73022afc942c0f012cc3a8868619c47c94e1",
                 "shasum": ""
             },
             "require": {
@@ -945,7 +945,7 @@
             ],
             "description": "The Illuminate View package.",
             "homepage": "http://laravel.com",
-            "time": "2015-12-08 16:38:14"
+            "time": "2016-01-07 13:30:59"
         },
         {
             "name": "johnbillion/extended-cpts",
