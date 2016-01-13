@@ -14,4 +14,6 @@ RUN docker-php-ext-install mysqli
 
 COPY docker.conf /etc/apache2/sites-enabled/
 
+RUN ["chmod","-R","777","/var/www/html/web/uploads"]
+
 EXPOSE 80

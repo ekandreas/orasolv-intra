@@ -14,7 +14,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/"><img src="{{ get_stylesheet_directory_uri() . '/assets/images/orasolv_303x85_white.png' }}" alt="logo" /></a>
+          <a class="navbar-brand" href="/"><img src="{{ asset_path('images/orasolv_303x85_white.png') }}" alt="logo" /></a>
         </div>  
 
         <div id="bs-example-navbar-collapse-5" class="collapse navbar-collapse">

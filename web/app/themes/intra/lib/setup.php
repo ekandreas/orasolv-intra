@@ -48,7 +48,7 @@ function setup() {
 
   // Use main stylesheet for visual editor
   // To add custom styles edit /assets/styles/layouts/_tinymce.scss
-  add_editor_style(Assets\asset_path('styles/main.css'));
+  add_editor_style(\asset_path('styles/main.css'));
 }
 add_action('after_setup_theme', __NAMESPACE__ . '\\setup');
 
@@ -112,17 +112,3 @@ function display_sidebar() {
 
   return apply_filters('sage/display_sidebar', $display);
 }
-
-/**
- * Theme assets
- */
-function assets() {
-  wp_enqueue_style('sage/css', Assets\asset_path('styles/main.css'), false, null);
-
-  if (is_single() && comments_open() && get_option('thread_comments')) {
-    wp_enqueue_script('comment-reply');
-  }
-
-  wp_enqueue_script('sage/js', Assets\asset_path('scripts/main.js'), ['jquery'], null, true);
-}
-add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100);

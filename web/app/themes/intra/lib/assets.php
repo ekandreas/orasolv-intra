@@ -1,6 +1,18 @@
 <?php
 
-namespace Roots\Sage\Assets;
+/**
+ * Theme assets
+ */
+function add_assets() {
+  wp_enqueue_style('sage/css', asset_path('styles/main.css'), false, null);
+
+  if (is_single() && comments_open() && get_option('thread_comments')) {
+    wp_enqueue_script('comment-reply');
+  }
+
+  wp_enqueue_script('sage/js', asset_path('scripts/main.js'), ['jquery'], null, true);
+}
+add_action('wp_enqueue_scripts', 'add_assets', 100);
 
 /**
  * Get paths for assets
