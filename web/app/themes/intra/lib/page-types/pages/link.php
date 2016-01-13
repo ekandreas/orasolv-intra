@@ -9,6 +9,7 @@ class Link_Page_Type extends Papi_Page_Type
             'post_type'   => 'link',
             'name'        => __('Länkning','intra'),
             'description' => __('En länk','intra'),
+            'template' => intra\Papi::template(),
         ];
     }
 
