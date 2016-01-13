@@ -45,10 +45,11 @@ class Link_Page_Type extends Papi_Page_Type
             ] ),
 
             papi_property( [
-                'slug' => 'note',
-                'title' => __('Intern notering','intra'),
-                'type'  => 'string',
-                'description' => 'Visas ej för användarna'
+                'slug' => 'prio',
+                'title' => __('Prio','intra'),
+                'type'  => 'number',
+                'default' => '100',
+                'description' => __('Prioritet när det ska listas flera länkar i en utvisning','intra'),
             ] ),
 
         ] );
