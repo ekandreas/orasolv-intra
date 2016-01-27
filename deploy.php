@@ -35,11 +35,11 @@ set('keep_releases', 10);
 set('shared_dirs', ['web/app/uploads']);
 set('shared_files', ['.env', 'web/.htaccess', 'web/robots.txt']);
 set('env_vars', '/usr/bin/env');
+set('writable_dirs', ['web/app/uploads']);
 
 task('deploy:restart', function () {
-    writeln('Purge cache...');
-    //run("curl -s http://www.skolporten.se/wp/wp-admin/admin-ajax.php?action=purge");
-})->desc('Restarting apache2 and varnish');
+    run("rm -f web/app/uploads/.cache/*");
+})->desc('Refresh cache');
 
 task( 'deploy', [
     'deploy:prepare',
@@ -47,6 +47,7 @@ task( 'deploy', [
     'deploy:update_code',
     'deploy:vendors',
     'deploy:shared',
+    'deploy:writable',
     'deploy:symlink',
     'cleanup',
     'deploy:restart',
