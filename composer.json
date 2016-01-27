@@ -37,7 +37,7 @@
     "composer/installers": "*",
     "vlucas/phpdotenv": "*",
     "johnpbloch/wordpress": "*",
-    "wp-papi/papi": "dev-master",
+    "wp-papi/papi": "*",
     "johnbillion/query-monitor": "*",
     "wpackagist-plugin/elasticpress": "*",
     "wpackagist-plugin/members": "*",
@@ -45,12 +45,15 @@
     "wpackagist-plugin/redirection": "*",
     "wpackagist-plugin/disable-emojis":"*",
     "roots/soil": "*",
-    "deployer/deployer": "*",
     "johnbillion/extended-cpts":"*",
     "wpackagist-plugin/resize-image-after-upload":"*",
-    "ekandreas/bladerunner":"dev-master",
+    "ekandreas/bladerunner":"*"
+  },
+  "require-dev": {
+    "deployer/deployer": "*",
     "ekandreas/dipwpe": "dev-master",
-    "filp/whoops": "dev-master"
+    "filp/whoops": "dev-master",
+    "ekandreas/docker-bedrock": "*"
   },
   "extra": {
     "installer-paths": {

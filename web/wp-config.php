@@ -6,10 +6,10 @@
  */
 require_once(dirname(__DIR__) . '/vendor/autoload.php');
 
-if( WP_DEBUG ) {
-	$whoops = new \Whoops\Run;
-	$whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
-	$whoops->register();
+if (WP_DEBUG && class_exists('\Whoops\Run')) {
+    $whoops = new \Whoops\Run;
+    $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
+    $whoops->register();
 }
 
 require_once(dirname(__DIR__) . '/config/application.php');

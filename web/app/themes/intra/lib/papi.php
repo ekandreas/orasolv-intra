@@ -20,7 +20,7 @@ class Papi
     }
 
     static function add_template_types() {
-        add_filter('bladerunner/template_types', '\intra\Papi::template_types');
+        add_filter('bladerunner/template/types', '\intra\Papi::template_types');
     }
 
     static function template_types() {
