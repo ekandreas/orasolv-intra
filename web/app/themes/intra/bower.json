@@ -9,7 +9,8 @@
   "dependencies": {
     "bootstrap-sass": "3.3.6",
     "Bootflat": "~2.0.4",
-    "morris.js": "morrisjs#~0.5.1"
+    "morris.js": "morrisjs#~0.5.1",
+    "vue": "^1.0.21"
   },
   "overrides": {
     "bootstrap-sass": {

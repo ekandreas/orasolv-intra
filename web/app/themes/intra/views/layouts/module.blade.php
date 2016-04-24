@@ -27,6 +27,12 @@
 		<p>&nbsp;</p>
 		<p>&nbsp;</p>
 
+	    @if(!is_user_logged_in())
+	      @include('views.modals.login')
+	      @include('views.modals.register')
+	      @include('views.modals.forgot')
+	    @endif
+
 		@include('views.parts.footer')
 
         @yield('custom_scripts')

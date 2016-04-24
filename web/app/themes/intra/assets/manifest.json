@@ -12,6 +12,11 @@
       ],
       "main": true
     },
+    "unauthenticated.js": {
+      "files": [
+        "scripts/unauthenticated.js"
+      ]
+    },
     "customizer.js": {
       "files": [
         "scripts/customizer.js"

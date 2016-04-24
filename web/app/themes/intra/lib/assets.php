@@ -11,6 +11,17 @@ function add_assets() {
   }
 
   wp_enqueue_script('sage/js', asset_path('scripts/main.js'), ['jquery'], null, true);
+
+  if(!is_user_logged_in()) {
+    wp_enqueue_script('unauth-js', asset_path('scripts/unauthenticated.js'), [], $version, true);
+    $data = [
+        'waiting_message' => __('Vänta lite, kontrollerar...', 'intra'),
+        'ajax_url'        => admin_url('admin-ajax.php'),
+        'nonce'           => wp_create_nonce('gatekeeper'),
+    ];
+    wp_localize_script('unauth-js', 'wpdata', $data);
+  }
+
 }
 add_action('wp_enqueue_scripts', 'add_assets', 100);
 
