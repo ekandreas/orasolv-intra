@@ -1,1 +1,2 @@
-intra
+<?php
+	bladerunner('views.pages.index');

@@ -22,10 +22,6 @@ class Standard_Page_Type extends Papi_Page_Type
 
     public function register() {
 
-        $this->remove([
-            'commentstatusdiv',
-            ]);
-
         $this->box( 'Under innehåll', [
             papi_property( [
                 'slug' => 'modules_container_row1_col1',

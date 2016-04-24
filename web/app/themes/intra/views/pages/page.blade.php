@@ -9,6 +9,9 @@
 			@if( has_post_thumbnail() )
 				{{ the_post_thumbnail('full',['class'=>"img-responsive"]) }}
 			@endif
+			
+			<h1>{{ the_title() }}</h1>
+			{{ the_content() }}
 
 		@endwhile
 	@endif

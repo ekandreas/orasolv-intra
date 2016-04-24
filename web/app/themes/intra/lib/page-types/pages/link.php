@@ -23,11 +23,7 @@ class Link_Page_Type extends Papi_Page_Type
     
     public function register() {
 
-        $this->remove([
-            'commentstatusdiv',
-            'editor',
-            'postimagediv',
-            ]);
+
 
         $this->box( 'Om länkning', [
 

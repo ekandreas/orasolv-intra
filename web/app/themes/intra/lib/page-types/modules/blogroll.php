@@ -14,11 +14,13 @@ class Blogroll_Module_Type extends Papi_Page_Type
         ];
     }
 
-    public function register() {
-
-        $this->remove([
+    public function remove() {
+        return [
             'commentstatusdiv',
-        ]);
+        ];
+    }
+
+    public function register() {
 
         $this->box( __('Text','lobbykit'), [
                 papi_property([
