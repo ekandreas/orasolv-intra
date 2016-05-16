@@ -4,13 +4,14 @@
       "files": [
         "scripts/main.js"
       ],
-      "bower": ["jquery","bootstrap-sass","morris.js","raphael","vue"],
+      "bower": ["jquery","bootstrap-sass","morris.js","raphael","vue","fontawesome"],
       "main": true
     },
     "main.css": {
       "files": [
         "styles/main.scss"
       ],
+      "bower": ["fontawesome"],
       "main": true
     },
     "unauthenticated.js": {

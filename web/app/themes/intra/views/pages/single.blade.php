@@ -13,6 +13,8 @@
 			<h1>{{ the_title() }}</h1>
 			{{ the_content() }}
 
+			@include( 'views.parts.edit_post' )
+
 		@endwhile
 	@endif
 

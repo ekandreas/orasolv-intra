@@ -17,7 +17,7 @@
 					<h3>{{ the_title() }}</h3>
 					{!! get_post_excerpt( get_the_ID(), $length, false) !!}
 					<br/>
-					<a href="{{ get_permalink() }}">Läs mer!</a>
+					<a href="{{ get_permalink() }}"><i class="fa fa-eye" aria-hidden="true"></i> Läs mer!</a>
 				@endif
 			@endwhile
 		@endif
