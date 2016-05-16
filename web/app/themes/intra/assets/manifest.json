@@ -4,6 +4,7 @@
       "files": [
         "scripts/main.js"
       ],
+      "bower": ["jquery","bootstrap-sass","morris.js","raphael","vue"],
       "main": true
     },
     "main.css": {
@@ -21,9 +22,6 @@
       "files": [
         "scripts/customizer.js"
       ]
-    },
-    "jquery.js": {
-      "bower": ["jquery"]
     }
   },
   "config": {

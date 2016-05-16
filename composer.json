@@ -47,7 +47,8 @@
     "roots/soil": "*",
     "johnbillion/extended-cpts":"*",
     "wpackagist-plugin/resize-image-after-upload":"*",
-    "ekandreas/bladerunner":"*"
+    "ekandreas/bladerunner":"*",
+    "wpackagist-plugin/menu-image": "*"
   },
   "require-dev": {
     "deployer/deployer": "*",

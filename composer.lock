@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "876836b64579b8c71e3fcce0c9f2b2b4",
-    "content-hash": "ead6a62336ad4cba9a3e9a60cf1e62cd",
+    "hash": "0d22c950e2f2db4b1dbbf7bdb3d04236",
+    "content-hash": "6a3d760f532e84c603df01fc7a6d4a71",
     "packages": [
         {
             "name": "composer/installers",
@@ -1099,6 +1099,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/members/"
+        },
+        {
+            "name": "wpackagist-plugin/menu-image",
+            "version": "2.6.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/menu-image/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/menu-image.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/menu-image/"
         },
         {
             "name": "wpackagist-plugin/redirection",

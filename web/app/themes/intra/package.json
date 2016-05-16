@@ -56,6 +56,5 @@
     "traverse": "^0.6.6",
     "wiredep": "^2.2.2"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

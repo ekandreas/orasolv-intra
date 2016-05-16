@@ -10,6 +10,9 @@ function add_assets() {
     wp_enqueue_script('comment-reply');
   }
 
+  //wp_deregister_script( 'jquery' );
+  //wp_register_script( 'jquery', '//ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js', array(), null, false );
+  //wp_enqueue_script( 'bootstrap', '//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js', array('jquery'), null, false );
   wp_enqueue_script('sage/js', asset_path('scripts/main.js'), ['jquery'], null, true);
 
   if(!is_user_logged_in()) {
