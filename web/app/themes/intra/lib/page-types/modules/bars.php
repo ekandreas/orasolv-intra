@@ -33,6 +33,8 @@ class Bars_Module_Type extends Papi_Page_Type
             ]
         );
 
+        $this->box( dirname(__FILE__) . '/parts/module.php' );
+
     }
 
 }
