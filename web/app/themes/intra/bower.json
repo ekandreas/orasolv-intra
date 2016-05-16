@@ -10,7 +10,8 @@
     "bootstrap-sass": "3.3.6",
     "Bootflat": "~2.0.4",
     "morris.js": "morrisjs#~0.5.1",
-    "vue": "^1.0.21"
+    "vue": "^1.0.21",
+    "Yamm3": "yamm3#^1.1.0"
   },
   "overrides": {
     "bootstrap-sass": {

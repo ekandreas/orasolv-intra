@@ -21,15 +21,19 @@
 
           <?php
               if( has_nav_menu('primary_navigation') ) {
-                wp_nav_menu( [
+
+                wp_nav_menu( array(
                     'menu'              => 'primary_navigation',
                     'theme_location'    => 'primary_navigation',
-                    'depth'             => 1,
-                    'container'         => '',
+                    'depth'             => 4,
+                    'container'         => 'div',
+                    'container_class'   => 'collapse navbar-collapse',
+                    'container_id'      => 'bs-example-navbar-collapse-5',
                     'menu_class'        => 'nav navbar-nav',
-                    'fallback_cb' => 'wp_page_menu',
-                    'walker'            => new Roots\Soil\Nav\NavWalker()
-                ]);
+                    'fallback_cb'       => 'Yamm_Nav_Walker_menu_fallback',
+                    'walker'            => new Yamm_Nav_Walker())
+                );
+
               }
           ?>
 

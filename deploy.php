@@ -12,9 +12,10 @@ env('remote.domain','orasolv.info');
 env('local.domain','intra.dev');
 env('local.is_elastic',true);
 
-server( 'development', 'intra.dev', 22 )
+server( 'development', 'default', 22 )
     ->env('deploy_path','/var/www/intra')
     ->env('branch', 'master')
+    ->env('container', 'bedrock')
     ->stage('development')
     ->user( 'vagrant', 'vagrant' );
 

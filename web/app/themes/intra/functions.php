@@ -8,6 +8,7 @@ $sage_includes = [
   'lib/admin_menu.php',
   'lib/cpt.php',
   'lib/papi.php',
+  'lib/yamm.php',
   //'lib/no-updates.php',
 ];
 
