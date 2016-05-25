@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0d22c950e2f2db4b1dbbf7bdb3d04236",
-    "content-hash": "6a3d760f532e84c603df01fc7a6d4a71",
+    "hash": "4f484b3c4915834f0242e9a7f173ee0e",
+    "content-hash": "fdbef478001bcf6e91b3c1665852db9c",
     "packages": [
         {
             "name": "composer/installers",
@@ -219,7 +219,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v5.2.31",
+            "version": "v5.2.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -262,7 +262,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.2.31",
+            "version": "v5.2.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -304,7 +304,7 @@
         },
         {
             "name": "illuminate/events",
-            "version": "v5.2.31",
+            "version": "v5.2.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -349,16 +349,16 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v5.2.31",
+            "version": "v5.2.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
-                "reference": "d525dc659f24e943dc1d0fecc713825039ec2f67"
+                "reference": "b1d1a5380376f09af93d563861fe6d631ddcc7b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/d525dc659f24e943dc1d0fecc713825039ec2f67",
-                "reference": "d525dc659f24e943dc1d0fecc713825039ec2f67",
+                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/b1d1a5380376f09af93d563861fe6d631ddcc7b4",
+                "reference": "b1d1a5380376f09af93d563861fe6d631ddcc7b4",
                 "shasum": ""
             },
             "require": {
@@ -395,20 +395,20 @@
             ],
             "description": "The Illuminate Filesystem package.",
             "homepage": "http://laravel.com",
-            "time": "2016-04-11 13:54:32"
+            "time": "2016-05-15 17:29:00"
         },
         {
             "name": "illuminate/support",
-            "version": "v5.2.31",
+            "version": "v5.2.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "cb5b004610baabe6b4bf532e6e4ff9eaca5eb25b"
+                "reference": "61329ea409362fdae167fdca1125f46c997ce689"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/cb5b004610baabe6b4bf532e6e4ff9eaca5eb25b",
-                "reference": "cb5b004610baabe6b4bf532e6e4ff9eaca5eb25b",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/61329ea409362fdae167fdca1125f46c997ce689",
+                "reference": "61329ea409362fdae167fdca1125f46c997ce689",
                 "shasum": ""
             },
             "require": {
@@ -451,11 +451,11 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "http://laravel.com",
-            "time": "2016-04-21 13:28:36"
+            "time": "2016-05-14 16:24:10"
         },
         {
             "name": "illuminate/view",
-            "version": "v5.2.31",
+            "version": "v5.2.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
@@ -992,16 +992,16 @@
         },
         {
             "name": "wp-papi/papi",
-            "version": "v3.0.7",
+            "version": "v3.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-papi/papi.git",
-                "reference": "fa2facba0a1b6a5df95d0c835e70f4530af79b74"
+                "reference": "6ad92d5d12397a1cde7812d0673a249a25a542a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-papi/papi/zipball/fa2facba0a1b6a5df95d0c835e70f4530af79b74",
-                "reference": "fa2facba0a1b6a5df95d0c835e70f4530af79b74",
+                "url": "https://api.github.com/repos/wp-papi/papi/zipball/6ad92d5d12397a1cde7812d0673a249a25a542a2",
+                "reference": "6ad92d5d12397a1cde7812d0673a249a25a542a2",
                 "shasum": ""
             },
             "require": {
@@ -1038,7 +1038,7 @@
                 "page type",
                 "wordpress"
             ],
-            "time": "2016-05-09 10:59:06"
+            "time": "2016-05-25 08:45:28"
         },
         {
             "name": "wpackagist-plugin/disable-emojis",
@@ -1062,15 +1062,15 @@
         },
         {
             "name": "wpackagist-plugin/elasticpress",
-            "version": "1.9",
+            "version": "1.9.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elasticpress/",
-                "reference": "tags/1.9"
+                "reference": "tags/1.9.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elasticpress.1.9.zip",
+                "url": "https://downloads.wordpress.org/plugin/elasticpress.1.9.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1081,16 +1081,16 @@
             "homepage": "https://wordpress.org/plugins/elasticpress/"
         },
         {
-            "name": "wpackagist-plugin/members",
-            "version": "1.1.1",
+            "name": "wpackagist-plugin/groups",
+            "version": "1.10.2",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/members/",
-                "reference": "tags/1.1.1"
+                "url": "https://plugins.svn.wordpress.org/groups/",
+                "reference": "tags/1.10.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/members.1.1.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/groups.1.10.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1098,7 +1098,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/members/"
+            "homepage": "https://wordpress.org/plugins/groups/"
         },
         {
             "name": "wpackagist-plugin/menu-image",
@@ -1164,16 +1164,16 @@
     "packages-dev": [
         {
             "name": "deployer/deployer",
-            "version": "v3.2.1",
+            "version": "v3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deployphp/deployer.git",
-                "reference": "bba421fbfd8f8d5bc49e7af44b798fa96f21426c"
+                "reference": "0b40e8b7c7eeaa506ed2d0be72e34fd6b71f85ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deployphp/deployer/zipball/bba421fbfd8f8d5bc49e7af44b798fa96f21426c",
-                "reference": "bba421fbfd8f8d5bc49e7af44b798fa96f21426c",
+                "url": "https://api.github.com/repos/deployphp/deployer/zipball/0b40e8b7c7eeaa506ed2d0be72e34fd6b71f85ff",
+                "reference": "0b40e8b7c7eeaa506ed2d0be72e34fd6b71f85ff",
                 "shasum": ""
             },
             "require": {
@@ -1214,7 +1214,7 @@
             ],
             "description": "Deployment Tool",
             "homepage": "http://deployer.org",
-            "time": "2016-04-11 09:18:16"
+            "time": "2016-05-19 01:47:21"
         },
         {
             "name": "deployer/phar-update",
@@ -2545,16 +2545,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.1.1",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "1289d16209491b584839022f29257ad859b8532d"
+                "reference": "dff51f72b0706335131b00a7f49606168c582594"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/1289d16209491b584839022f29257ad859b8532d",
-                "reference": "1289d16209491b584839022f29257ad859b8532d",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/dff51f72b0706335131b00a7f49606168c582594",
+                "reference": "dff51f72b0706335131b00a7f49606168c582594",
                 "shasum": ""
             },
             "require": {
@@ -2566,7 +2566,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1-dev"
+                    "dev-master": "1.2-dev"
                 }
             },
             "autoload": {
@@ -2600,7 +2600,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-01-20 09:13:37"
+            "time": "2016-05-18 14:26:46"
         },
         {
             "name": "symfony/process",

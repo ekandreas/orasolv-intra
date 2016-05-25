@@ -13,12 +13,10 @@
 			@endif
 			@while ( $the_query->have_posts() )
 				{{ $the_query->the_post() }}
-				@if( members_can_current_user_view_post() )
 					<h3>{{ the_title() }}</h3>
 					{!! get_post_excerpt( get_the_ID(), $length, false) !!}
 					<br/>
 					<a href="{{ get_permalink() }}"><i class="fa fa-eye" aria-hidden="true"></i> Läs mer!</a>
-				@endif
 			@endwhile
 		@endif
 		{{ wp_reset_postdata() }}

@@ -40,7 +40,7 @@
     "wp-papi/papi": "*",
     "johnbillion/query-monitor": "*",
     "wpackagist-plugin/elasticpress": "*",
-    "wpackagist-plugin/members": "*",
+    "wpackagist-plugin/groups": "*",
     "mandrill/mandrill": "*",
     "wpackagist-plugin/redirection": "*",
     "wpackagist-plugin/disable-emojis":"*",
