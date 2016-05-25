@@ -101,3 +101,10 @@ $phpmailer->isSMTP();
     $phpmailer->FromName = $from_name;
      
 }
+
+add_action('login_head', function() {
+    echo '<style type="text/css">
+        h1 a {background-image: url('.get_bloginfo('template_directory').'/dist/images/orasolv_303x85.png) !important; }
+    </style>';
+});
+
