@@ -39,7 +39,6 @@
     "johnpbloch/wordpress": "*",
     "wp-papi/papi": "*",
     "johnbillion/query-monitor": "*",
-    "wpackagist-plugin/elasticpress": "*",
     "wpackagist-plugin/groups": "*",
     "mandrill/mandrill": "*",
     "wpackagist-plugin/redirection": "*",
@@ -48,7 +47,9 @@
     "johnbillion/extended-cpts":"*",
     "wpackagist-plugin/resize-image-after-upload":"*",
     "ekandreas/bladerunner":"*",
-    "wpackagist-plugin/menu-image": "*"
+    "wpackagist-plugin/menu-image": "*",
+    "wpackagist-plugin/enhanced-media-library": "*",
+    "wpackagist-plugin/elasticpress": "*"
   },
   "require-dev": {
     "deployer/deployer": "*",
