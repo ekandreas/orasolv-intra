@@ -17,11 +17,14 @@ class Media_Attachment_Type extends Papi_Attachment_Type {
    * Register content meta box.
    */
   public function register() {
-    $this->box( 'Dokumentlistningar', [
+    $this->box( 'Medialistningar', [
       papi_property( [
         'title' => 'Relation',
         'slug'  => 'relation',
-        'type'  => 'relationship'
+        'type'  => 'relationship',
+        'settings' => [
+          'post_type' => 'module'
+        ],
       ] ),
       papi_property( [
         'title' => 'Ordning',

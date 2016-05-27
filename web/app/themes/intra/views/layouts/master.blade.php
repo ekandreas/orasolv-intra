@@ -32,6 +32,8 @@
 
 		@include('views.parts.footer')
 
+		@include('views.parts.scripts')
+
         @yield('custom_scripts')
 
     </body>

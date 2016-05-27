@@ -11,7 +11,7 @@ class Papi
             return $directories;
         } );
 
-        add_action('template_redirect', '\intra\Papi::add_template_types', 9);
+        //add_action('template_redirect', '\intra\Papi::add_template_types', 9);
 
     }
 
@@ -20,7 +20,7 @@ class Papi
     }
 
     static function add_template_types() {
-        add_filter('bladerunner/template/types', '\intra\Papi::template_types');
+        //add_filter('bladerunner/template/types', '\intra\Papi::template_types');
     }
 
     static function template_types() {
