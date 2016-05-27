@@ -37,12 +37,12 @@
               }
           ?>
 
-          <form class="navbar-form navbar-right" role="search">
+          <!--form class="navbar-form navbar-right" role="search">
               <div class="form-search search-only">
                 <i class="search-icon glyphicon glyphicon-search"></i>
                 <input name="s" type="text" class="form-control search-query">
               </div>
-          </form>
+          </form-->
 
         </div>
 
