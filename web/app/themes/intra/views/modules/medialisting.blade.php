@@ -29,7 +29,16 @@
 							$size = $size . 'kB';
 						}
 					?>
-					<a href="{{ $media->guid }}" download><i class="fa fa-download" aria-hidden="true"></i> {{ $media->post_title }} ({{ $size }})</a>
+					<a href="{{ $media->guid }}" download>
+						@if($media->post_mime_type=='image/png' || $media->post_mime_type=='image/jpg' || $media->post_mime_type=='image/gif' || $media->post_mime_type=='image/jpeg')
+							<i class="fa fa-file-image-o" aria-hidden="true"></i>
+						@elseif($media->post_mime_type=='application/pdf' || $media->post_mime_type=='image/jpg' || $media->post_mime_type=='image/gif' || $media->post_mime_type=='image/jpeg')
+							<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+						@else
+							<i class="fa fa-file" aria-hidden="true"></i>
+						@endif
+						{{ $media->post_title }} ({{ $size }}) <i class="fa fa-download" aria-hidden="true"></i>
+					</a>
 				</p>
 			@endforeach
 		@endif
