@@ -19,11 +19,15 @@ class Media_Attachment_Type extends Papi_Attachment_Type {
   public function register() {
     $this->box( 'Medialistningar', [
       papi_property( [
-        'title' => 'Relation',
+        'title' => 'Medialistning',
         'slug'  => 'relation',
         'type'  => 'relationship',
         'settings' => [
-          'post_type' => 'module'
+          'post_type' => 'module',
+          'query' => [
+            'meta_key' => PAPI_PAGE_TYPE_KEY,
+            'meta_value' => 'modules/medialisting',
+          ],
         ],
       ] ),
       papi_property( [
