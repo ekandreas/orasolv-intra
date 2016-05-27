@@ -20,7 +20,16 @@
 			<p>{!! papi_get_field($module->id, 'body') !!}</p>
 			@foreach($medialist as $media)
 				<p>
-					<a href="{{ $media->guid }}">{{ $media->post_title }}</a>
+					<?php
+						$meta = wp_get_attachment_metadata($media->ID);
+						$size = round(filesize(get_attached_file($media->ID)) / 1024);
+						if($size>1024) {
+							$size = round($size/1024,1) . 'MB';
+						} else {
+							$size = $size . 'kB';
+						}
+					?>
+					<a href="{{ $media->guid }}" download><i class="fa fa-download" aria-hidden="true"></i> {{ $media->post_title }} ({{ $size }})</a>
 				</p>
 			@endforeach
 		@endif
