@@ -35,6 +35,21 @@ class Blogroll_Module_Type extends Papi_Page_Type
                     'type'  => 'number',
                     'default' => '200',
                 ]),
+                papi_property([
+                    'slug'  => 'matches',
+                    'title' => __('Kategorimatchningar','lobbykit'),
+                    'description' => 'Lägg till de kategorier du vill ska matcha för utvisning. Ingen = alla inlägg.',
+                    'type'  => 'repeater',
+                    'settings' => [
+                        'items' => [
+                            papi_property([
+                                'slug'  => 'term',
+                                'title' => __('Kategori','lobbykit'),
+                                'type'  => 'term',
+                            ]),
+                        ],
+                    ],
+                ]),
             ]
         );
 
