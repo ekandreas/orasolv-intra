@@ -50,8 +50,7 @@
     "wpackagist-plugin/elasticpress": "*",
     "wpackagist-plugin/sendgrid-email-delivery-simplified": "*",
     "wpackagist-plugin/mce-table-buttons": "*",
-    "wpackagist-plugin/chatwing": "*",
-    "wpackagist-plugin/chat": "*"
+    "wpackagist-plugin/iflychat": "*"
   },
   "require-dev": {
     "deployer/deployer": "*",

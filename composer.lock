@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cc2c03be354dadcd82e5dd1058c3321e",
-    "content-hash": "1d2e1538e4857e2f37383e7c66003fb1",
+    "hash": "4b85221969d2620436dc525c52cb209f",
+    "content-hash": "1f14352be3142436b6482019e9cb1aa4",
     "packages": [
         {
             "name": "composer/installers",
@@ -1041,46 +1041,6 @@
             "time": "2016-05-25 08:45:28"
         },
         {
-            "name": "wpackagist-plugin/chat",
-            "version": "1.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/chat/",
-                "reference": "tags/1.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/chat.1.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/chat/"
-        },
-        {
-            "name": "wpackagist-plugin/chatwing",
-            "version": "2.0.8",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/chatwing/",
-                "reference": "tags/2.0.8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/chatwing.2.0.8.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/chatwing/"
-        },
-        {
             "name": "wpackagist-plugin/disable-emojis",
             "version": "1.5.1",
             "source": {
@@ -1139,6 +1099,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/groups/"
+        },
+        {
+            "name": "wpackagist-plugin/iflychat",
+            "version": "3.0.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/iflychat/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/iflychat.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/iflychat/"
         },
         {
             "name": "wpackagist-plugin/mce-table-buttons",
