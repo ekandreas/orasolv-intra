@@ -20,3 +20,13 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+
+function set_post_order_in_admin( $wp_query ) {
+  if ( is_admin() ) {
+    if(!isset($_REQUEST['orderby'])) {
+      $wp_query->set( 'orderby', 'modified' );
+      $wp_query->set( 'order', 'DESC' );
+    }
+  }
+}
+add_filter('pre_get_posts', 'set_post_order_in_admin' );
