@@ -47,14 +47,11 @@
     "johnbillion/extended-cpts":"*",
     "wpackagist-plugin/resize-image-after-upload":"*",
     "ekandreas/bladerunner":"*",
-    "wpackagist-plugin/menu-image": "*",
-    "wpackagist-plugin/enhanced-media-library": "*",
     "wpackagist-plugin/elasticpress": "*",
     "wpackagist-plugin/sendgrid-email-delivery-simplified": "*",
     "wpackagist-plugin/mce-table-buttons": "*",
-    "wpackagist-plugin/bootstrap-3-shortcodes": "*",
-    "wpackagist-plugin/bootstrap-shortcodes": "*",
-    "wpackagist-plugin/megamenu": "*"
+    "wpackagist-plugin/chatwing": "*",
+    "wpackagist-plugin/chat": "*"
   },
   "require-dev": {
     "deployer/deployer": "*",
