@@ -49,7 +49,8 @@
     "ekandreas/bladerunner":"*",
     "wpackagist-plugin/menu-image": "*",
     "wpackagist-plugin/enhanced-media-library": "*",
-    "wpackagist-plugin/elasticpress": "*"
+    "wpackagist-plugin/elasticpress": "*",
+    "wpackagist-plugin/sendgrid-email-delivery-simplified": "*"
   },
   "require-dev": {
     "deployer/deployer": "*",

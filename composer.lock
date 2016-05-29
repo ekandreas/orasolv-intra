@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4fae9f8e50d1b23ee03b0673c54f2422",
-    "content-hash": "92eadad94192728df2bcf07b0d88704b",
+    "hash": "4e6354f5fa7f88ecb4078a79aadebb17",
+    "content-hash": "017a46e39a8085b35c4ed61e0038bb25",
     "packages": [
         {
             "name": "composer/installers",
@@ -1179,6 +1179,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/resize-image-after-upload/"
+        },
+        {
+            "name": "wpackagist-plugin/sendgrid-email-delivery-simplified",
+            "version": "1.8.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/sendgrid-email-delivery-simplified/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
         }
     ],
     "packages-dev": [
