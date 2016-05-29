@@ -46,6 +46,9 @@ class Blogroll_Module_Type extends Papi_Page_Type
                                 'slug'  => 'term',
                                 'title' => __('Kategori','lobbykit'),
                                 'type'  => 'term',
+                                'settings' => [
+                                    'taxonomy' => 'category'
+                                ] 
                             ]),
                         ],
                     ],
