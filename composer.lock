@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4e6354f5fa7f88ecb4078a79aadebb17",
-    "content-hash": "017a46e39a8085b35c4ed61e0038bb25",
+    "hash": "204110b5baa265de9961480154244d31",
+    "content-hash": "3ae113b4b54a0a5926652342bf947f27",
     "packages": [
         {
             "name": "composer/installers",
@@ -1041,6 +1041,46 @@
             "time": "2016-05-25 08:45:28"
         },
         {
+            "name": "wpackagist-plugin/bootstrap-3-shortcodes",
+            "version": "3.3.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/bootstrap-3-shortcodes/",
+                "reference": "tags/3.3.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/bootstrap-3-shortcodes.3.3.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/bootstrap-3-shortcodes/"
+        },
+        {
+            "name": "wpackagist-plugin/bootstrap-shortcodes",
+            "version": "3.4.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/bootstrap-shortcodes/",
+                "reference": "tags/3.4.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/bootstrap-shortcodes.3.4.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/bootstrap-shortcodes/"
+        },
+        {
             "name": "wpackagist-plugin/disable-emojis",
             "version": "1.5.1",
             "source": {
@@ -1119,6 +1159,46 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/groups/"
+        },
+        {
+            "name": "wpackagist-plugin/mce-table-buttons",
+            "version": "3.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mce-table-buttons/",
+                "reference": "tags/3.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mce-table-buttons.3.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mce-table-buttons/"
+        },
+        {
+            "name": "wpackagist-plugin/megamenu",
+            "version": "2.1.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/megamenu/",
+                "reference": "tags/2.1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/megamenu.2.1.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/megamenu/"
         },
         {
             "name": "wpackagist-plugin/menu-image",
